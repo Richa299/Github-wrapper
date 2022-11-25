@@ -28,7 +28,7 @@ function App() {
       <div className='bg bg2'></div>
       <div className='bg bg3'></div>
       <form className='form-card'>
-        <input type="text" onChange={handleText} value={userName}></input>
+        <input type="text" onChange={handleText} value={userName} placeholder="Enter Name"></input>
         <button onClick={handleSubmit}>Submit</button>
       </form>
       {response.message}
